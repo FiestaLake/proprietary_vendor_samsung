@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
+    vendor/samsung/klte-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
@@ -247,3 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
+
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    TimeService
